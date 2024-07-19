@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url('background-image.jpg'); /* Replace with your background image */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+            padding: 40px;
+            border-radius: 10px;
+            width: 50%;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: red;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Error</h1>
+        <p>{{ error_text }}</p> <!-- Dynamic error message -->
+    </div>
+</body>
+</html>
